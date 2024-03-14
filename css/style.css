@@ -1,0 +1,76 @@
+*{border:1px solid red
+}
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.mainheader {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(6, 4, 0);
+    padding-left: 0px;
+    margin:0px; 
+
+}
+
+.pageheader {
+    background-image: url("flux/images/hangers-1850082_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 125px;
+}
+
+a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(0, 170, 255, 0.4);
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: rgb(15, 15, 16);
+}
+
+
+.kop {
+    background-color: greenyellow
+}
+
+.tabort {
+    background-color: rgba(0, 170, 255, 0.4);
+}
+
+a:hover {
+    background-color: rgba(15, 215, 255, 0.7);
+
+}
+
+li {
+    display: inline;
+}
+
+.menu {
+    margin-top: 62px;
+}
+
+.myflexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.produkt {
+    margin-right: 20px;
+
+}
+
+footer {
+    background-color: #e1c3ff;
+    color: white; /* Om du vill ändra textfärgen för att synas bättre på lila */
+    padding: 30px; /* Tillägg av padding för att ge lite utrymme runt innehållet */
+    text-align: center; /* Centrera innehållet */
+    bottom: 0;
+    width: 100%; /* Fyller hela sidans bredd */
+    height: 100px; /* Ange höjden på fotofoten, justera efter behov */
+}
