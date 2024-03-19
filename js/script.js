@@ -1,4 +1,5 @@
-function buildMenu() {
+function buildMenu() 
+{
 
     var links = [
         ["Flux", "index.html"],
@@ -10,7 +11,7 @@ function buildMenu() {
     ]
 
 
-    var content = ""
+    var content =""
     for (var i = 0; i < links.length; i++) {
         var text = links[i][0]
 
